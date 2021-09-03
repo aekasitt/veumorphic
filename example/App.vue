@@ -2,8 +2,8 @@
   <veu-pane>
     <div class='container'>
       <div class='row'>
-        <div class='col-20'></div>
-        <div class='col-60'>
+        <div class='col-3'></div>
+        <div class='col-6'>
           <veu-navbar :headroom='true' :expand='"lg"'>
             <div class='container'>
               <div class='row'>
@@ -14,14 +14,14 @@
                 </div>
               </div>
               <div class='row'>
-                <div class='col-20'></div>
-                <div class='col-30'>
+                <div class='col-4'></div>
+                <div class='col-4 align-center'>
                   <veu-button :text='"Buttons"' />
                 </div>
-                <div class='col-30'>
+                <div class='col-4 align-center'>
                   <veu-button :text='"Inputs"' />
                 </div>
-                <div class='col-20'></div>
+                <div class='col-4'></div>
               </div>
             </div>
           </veu-navbar>
@@ -45,7 +45,7 @@
           <veu-button :text='sample' />
         </div>
         <div class='row'>
-          <div class='col-100 align-center'>
+          <div class='col-12 align-center'>
             <p>
               Rounded
             </p>
@@ -58,24 +58,24 @@
             </p>
         </div>
         <div class='row'>
-          <div class='col-20'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Primary"' :variant='"primary"' />
           </div>
-          <div class='col-20'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Secondary"' :variant='"secondary"' />
           </div>
-          <div class='col-20'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Info"' :variant='"info"' />
-          </div>
-          <div class='col-20'>
-            <veu-button :text='"Success"' :variant='"success"' />
-          </div>
-          <div class='col-20'>
-            <veu-button :text='"Danger"' :variant='"danger"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-20'>
+          <div class='col-4 align-center'>
+            <veu-button :text='"Success"' :variant='"success"' />
+          </div>
+          <div class='col-4 align-center'>
+            <veu-button :text='"Danger"' :variant='"danger"' />
+          </div>
+          <div class='col-4 align-center'>
             <veu-button :text='"Warning"' :variant='"warning"' />
           </div>
         </div>
@@ -85,11 +85,11 @@
           </p>
         </div>
         <div class='row'>
-          <div class='col-20'></div>
-          <div class='col-40'>
+          <div class='col-3'>&nbsp;</div>
+          <div class='col-3 align-center'>
             <veu-button :text='"Up"' :animate='"up"' />
           </div>
-          <div class='col-40'>
+          <div class='col-3 align-center'>
             <veu-button :text='"Down"' :animate='"down"' />
           </div>
         </div>
@@ -99,13 +99,13 @@
           </p>
         </div>
         <div class='row'>
-          <div class='col-25'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Small"' :size='"sm"' />
           </div>
-          <div class='col-25'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Regular"' :size='"md"' />
           </div>
-          <div class='col-25'>
+          <div class='col-4 align-center'>
             <veu-button :text='"Large"' :size='"lg"' />
           </div>
         </div>
@@ -131,17 +131,20 @@
           </p>
         </div>
         <div class='row'>
-          <div class='col-100'>
+          <div class='col-2'>&nbsp;</div>
+          <div class='col-8'>
             <veu-input :placeholder='"Small"' :size='"sm"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-100'>
+          <div class='col-2'>&nbsp;</div>
+          <div class='col-8'>
             <veu-input :placeholder='"Regular"' :size='"md"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-100'>
+          <div class='col-2'>&nbsp;</div>
+          <div class='col-8'>
             <veu-input :placeholder='"Large"' :size='"lg"' />
           </div>
         </div>
@@ -159,7 +162,22 @@
           </p>
         </div>
         <div class='row'>
-          <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
+          <div class='col-2'>&nbsp;</div>
+          <div class='col-8'>
+            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-2'>&nbsp;</div>
+          <div class='col-4'>
+            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
+          </div>
+          <div class='col-4'>
+            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
+          </div>
+          <div class='col-4'>
+            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
+          </div>
         </div>
       </div>
     </div>
@@ -192,24 +210,18 @@
     float: left;
     box-sizing: border-box;
   }
-  /* Column with pre-defined width ratio: 20% */
-  .col-20 { width: 20%; }
-  /* Column with pre-defined width ratio: 25% */
-  .col-25 { width: 25%; }
-  /* Column with pre-defined width ratio: 30% */
-  .col-30 { width: 30%; }
-  /* Column with pre-defined width ratio: 40% */
-  .col-40 { width: 40%; }
-  /* Column with pre-defined width ratio: 60% */
-  .col-60 { width: 60%; }
-  /* Column with pre-defined width ratio: 70% */
-  .col-70 { width: 70%; }
-  /* Column with pre-defined width ratio: 75% */
-  .col-75 { width: 75%; }
-  /* Column with pre-defined width ratio: 80% */
-  .col-80 { width: 80%; }
-  /* Column with pre-defined width ratio: 100% */
-  .col-100 { width: 100%; }
+  .col-1 {width: 8.33%};
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
   /* Clear floats after the columns */
   .row {
     display: flex;
@@ -224,7 +236,6 @@
     display: none;
   }
   .align-center {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 </style>

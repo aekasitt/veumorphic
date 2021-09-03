@@ -36,8 +36,6 @@
 <style scoped>
   nav {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1rem;
