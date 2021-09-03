@@ -1,9 +1,15 @@
 {
   "name": "veumorphic",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Neumorphic UI Kit bundled as Vue Components",
-  "main": "dist/veumorphic.umd.js",
-  "module": "dist/veumorphic.umd.js",
+  "main": "./dist/veumorphic.umd.js",
+  "module": "./dist/veumorphic.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/veumorphic.es.js",
+      "require": "./dist/veumorphic.umd.js"
+    }
+  },
   "repository": "https://github.com/aekazitt/veumorphic",
   "homepage": "https://aekazitt.github.io/veumorphic",
   "author": "Sitt Guruvanich (@aekasitt)",
