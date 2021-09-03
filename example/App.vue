@@ -43,13 +43,27 @@
       <veu-button :text='"Regular"' :size='"md"' />
       <veu-button :text='"Large"' :size='"lg"' />
       <p>
-        Input without placeholder
+        Text-Input without placeholder
       </p>
       <veu-input />
       <p>
-        Input with placeholder
+        Text-Input with placeholder
       </p>
       <veu-input :placeholder='sample' />
+      <p>
+        Text-Input of varying sizes
+      </p>
+      <veu-input :placeholder='"Small"' :size='"sm"' />
+      <veu-input :placeholder='"Regular"' :size='"md"' />
+      <veu-input :placeholder='"Large"' :size='"lg"' />
+      <p>
+        Text-Input that fits content
+      </p>
+      <veu-input :placeholder='"I fit the contents written"' :width='"fit-content"' />
+      <p>
+        Text-Input that fills available space
+      </p>
+      <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
     </veu-pane>
   </div>
 </template>
