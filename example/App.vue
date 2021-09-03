@@ -1,5 +1,5 @@
 <template>
-  <veu-pane>
+  <veu-pane :theme='themes[themeIdx]'>
     <div class='container'>
       <div class='row'>
         <div class='col-3'>&nbsp;</div>
@@ -21,7 +21,9 @@
                 <div class='col-4 align-center'>
                   <veu-button :text='"Inputs"' />
                 </div>
-                <div class='col-4'></div>
+                <div class='col-4'>
+                  <veu-button :text='"Toggle Theme"' @click.native='toggleTheme' />
+                </div>
               </div>
             </div>
           </veu-navbar>
@@ -77,6 +79,11 @@
           </div>
           <div class='col-4 align-center'>
             <veu-button :text='"Warning"' :variant='"warning"' />
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-4 align-center'>
+            <veu-button :text='"Disabled"' :disabled='true' />
           </div>
         </div>
         <div class='row'>
@@ -193,7 +200,20 @@
     components: {
       VeuButton, VeuInput, VeuNavbar, VeuPane
     },
-    data: () => ({ sample: 'Hello, World!' })
+    methods: {
+      toggleTheme() {
+        let vue = this;
+        vue.themeIdx++;
+        if (vue.themeIdx >= vue.themes.length) {
+          vue.themeIdx = 0;
+        }
+      }
+    },
+    data: () => ({
+      sample: 'Hello, World!',
+      themeIdx: 0,
+      themes: [ 'grey', 'sepia' ]
+    })
   };
 </script>
 

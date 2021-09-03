@@ -31,18 +31,24 @@
 
 <style scoped>
   input {
+    /* Animation */
+    transition: all .3s ease-in-out;
+    /* Coloring */
+    /*color: #44476a;
+    background-color: #e6e7ee;*/
+    color: inherit;
+    background-color: inherit;
+    border: .0625rem solid #d1d9e6;
+    box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff;
+    /* Spacing */
     display: block;
-    width: 100%;
+    /* width: 100%; */
     height: calc(1.5em + 1.2rem + .0625rem);
     padding: .6rem .75rem;
-    font-weight: 300;
-    color: #44476a;
-    background-color: #e6e7ee;
     background-clip: padding-box;
-    border: .0625rem solid #d1d9e6;
     border-radius: .55rem;
-    box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff;
-    transition: all .3s ease-in-out
+    /* Text */
+    font-weight: 300;
   }
 
   /**

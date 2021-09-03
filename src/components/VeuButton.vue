@@ -62,9 +62,9 @@
     border-left-color: transparent;
     border-radius: .55rem;
     /* Coloring */
+    background-color: inherit;
     border-color: #d1d9e6;
-    box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
-    background-color: #e6e7ee;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     /* Spacing */
     display: inline-block;
     margin-right: .75rem;
@@ -87,9 +87,7 @@
   }
 
   button:hover {
-    color: #31344b;
-    background-color:#e6e7ee;
-    border-color:#e6e7ee;
+    border-color: #e6e7ee;
     box-shadow:inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff
   }
 
@@ -99,27 +97,10 @@
 
   button:disabled {
     pointer-events: none;
-    color:#31344b;
-    background-color:#e6e7ee;
-    border-color:#e6e7ee
   }
 
   button:focus {
     box-shadow:inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff
-  }
-
-  button:not(:disabled):not(.disabled):active,
-  button:not(:disabled):not(.disabled).active {
-    color:#31344b;
-    background-color:#e6e7ee;
-    border-color:#e6e7ee
-  }
-
-  button:not(:disabled):not(.disabled):active:focus,
-  button:not(:disabled):not(.disabled).active:focus {
-    color:#31344b;
-    background-color:#e6e7ee;
-    border-color:#e6e7ee
   }
 
   /**
@@ -200,5 +181,61 @@
       -moz-user-select: none;
       -moz-appearance: button;
     }
+  }
+
+  /**
+   * Dynamic Coloring
+   */
+  .grey button:disabled {
+    color: #31344B;
+    background-color: #D8DEE9;
+    border-color: #D8DEE9;
+    opacity: .6;
+  }
+
+  .grey button:hover {
+    color: #31344V;
+    background-color: #C8C9D0;
+    border-color: #C8C9D0;
+  }
+
+  .grey button:not(:disabled):not(.disabled):active,
+  .grey button:not(:disabled):not(.disabled).active {
+    color: #31344B;
+    background-color: #C8C9D0;
+    border-color: #C8C9D0;
+  }
+
+  .grey button:not(:disabled):not(.disabled):active:focus,
+  .grey button:not(:disabled):not(.disabled).active:focus {
+    color: #31344B;
+    background-color: #C8C9D0;
+    border-color: #C8C9D0;
+  }
+
+  .sepia button:disabled {
+    color: #644147;
+    background-color: #EFD59A;
+    border-color: #EFD59A;
+    opacity: .6;
+  }
+
+  .sepia button:hover {
+    color: #644147;
+    background-color: #C7BB9C;
+  }
+
+  .sepia button:not(:disabled):not(.disabled):active,
+  .sepia button:not(:disabled):not(.disabled).active {
+    color: #644147;
+    background-color: #C7BB9C;
+    border-color: #C7BB9C;
+  }
+
+  .sepia button:not(:disabled):not(.disabled):active:focus,
+  .sepia button:not(:disabled):not(.disabled).active:focus {
+    color: #644147;
+    background-color: #C7BB9C;
+    border-color: #C7BB9C;
   }
 </style>
