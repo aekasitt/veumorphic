@@ -1,5 +1,6 @@
 <template>
   <input :class="{
+    'veumorphic': true,
     'fill-available': width == 'fill-available',
     'fit-content':    width == 'fit-content',  
     'size-sm':        size  == 'sm',
@@ -29,8 +30,8 @@
   }
 </script>
 
-<style scoped>
-  input {
+<style>
+  input.veumorphic {
     /* Animation */
     transition: all .3s ease-in-out;
     /* Bordering */
@@ -50,15 +51,15 @@
   /**
    * Sizes
    */
-  input.size-sm {
+  input.veumorphic.size-sm {
     font-size: .875rem;
     line-height: 1;
   }
-  input.size-md {
+  input.veumorphic.size-md {
     font-size: 1rem;
     line-height: 1.5;
   }
-  input.size-lg {
+  input.veumorphic.size-lg {
     font-size: 1.25rem;
     line-height: 2rem
   }
@@ -67,25 +68,25 @@
    * Theme Coloring
    */
 
-  .grey input {
+  .grey input.veumorphic {
     background-color: #D9DAE1;
     border-color: #D1D9E6;
     box-shadow: inset 2px 2px 5px #B8B9BE, inset -3px -3px 7px #FFFFFF;
   }
 
-  .sepia input {
+  .sepia input.veumorphic {
     background-color: #DBCEAC;
     border-color: #C7BB9C;
     box-shadow: inset 2px 2px 5px #D7A382, inset -3px -3px 7px #F3D8AC;
   }
 
-  .cloud input {
+  .cloud input.veumorphic {
     background-color: #CBDAE8;
     border-color: #C9CDE4;
     box-shadow: inset 2px 2px 5px #B7C9D5, inset -3px -3px 7px #DFF0FF;
   }
 
-  .dark input {
+  .dark input.veumorphic {
     background-color: #5A5F85;
     border-color: #232635;
     box-shadow: inset 3px 3px 6px #232635, inset -3px -3px 6px #A0A3B5;
@@ -94,17 +95,17 @@
   /**
    * Input Lengths
    */
-  input.fit-content {
+  input.veumorphic.fit-content {
     width: fit-content;
   }
   /**
    * Chrome and Safari
    */
   @media screen and (-webkit-min-device-pixel-ratio:0) {
-    input.fit-content {
+    input.veumorphic.fit-content {
       width: -webkit-fit-content;
     }
-    input.fill-available {
+    input.veumorphic.fill-available {
       width: -webkit-fill-available;
     }
   }
@@ -113,10 +114,10 @@
    * Mozilla Firefox
    */
   @-moz-document url-prefix() {
-    input.fit-content {
+    input.veumorphic.fit-content {
       width: -moz-fit-content;
     }
-    input.fill-available {
+    input.veumorphic.fill-available {
       width: -moz-available;
     }
   }

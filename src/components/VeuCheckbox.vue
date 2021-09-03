@@ -7,6 +7,6 @@
 <script lang='javascript'>
 </script>
 
-<style scoped>
+<style>
 
 </style>

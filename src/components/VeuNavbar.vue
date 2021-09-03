@@ -2,6 +2,7 @@
 <template>
   <nav
     :class="{
+      'veumorphic': true,
       'transparent': transparent,
       'headroom':    headroom,
       'expand-sm':   expand == 'sm',
@@ -33,8 +34,8 @@
   };
 </script>
 
-<style scoped>
-  nav {
+<style>
+  nav.veumorphic {
     position: relative;
     align-items: center;
     justify-content: space-between;
@@ -44,17 +45,17 @@
     z-index: 100;
   }
 
-  nav.headroom {
+  nav.veumorphic.headroom {
     will-change: transform;
     transition: all .2s ease;
   }
 
-  nav.transparent {
+  nav.veumorphic.transparent {
     background-color: transparent;
     border: 0;
   }
 
-  nav.expand-lg {
+  nav.veumorphic.expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
