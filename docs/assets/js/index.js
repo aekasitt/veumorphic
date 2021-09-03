@@ -97,7 +97,9 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App_vue_vue_type_template_id_a9794c84___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=a9794c84& */ "./example/App.vue?vue&type=template&id=a9794c84&");
 /* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ "./example/App.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.vue?vue&type=style&index=0&lang=css& */ "./example/App.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -105,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _App_vue_vue_type_template_id_a9794c84___WEBPACK_IMPORTED_MODULE_0__["render"],
   _App_vue_vue_type_template_id_a9794c84___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -134,6 +136,22 @@ component.options.__file = "example/App.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/poi/lib/webpack/babel-loader.js??ref--1-0!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=script&lang=js& */ "./node_modules/poi/lib/webpack/babel-loader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./example/App.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_poi_lib_webpack_babel_loader_js_ref_1_0_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./example/App.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************!*\
+  !*** ./example/App.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-style-loader??ref--3-oneOf-1-0!../node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=style&index=0&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./example/App.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 
@@ -281,6 +299,52 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=script&lang=javascript&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuNavbar.vue?vue&type=script&lang=javascript& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'veu-navbar',
+  props: {
+    expand: {
+      default: 'none',
+      type: String
+    },
+    headroom: {
+      default: false,
+      type: Boolean
+    },
+    transparent: {
+      default: false,
+      type: Boolean
+    }
+  }
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuPane.vue?vue&type=script&lang=javascript&":
 /*!*************************************************************************************************************************************************************************!*\
   !*** ./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuPane.vue?vue&type=script&lang=javascript& ***!
@@ -321,110 +385,279 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("section", [
-        _c("p", [
-          _vm._v("\n      Basic Components not using Veumorphic\n    ")
-        ]),
+  return _c("veu-pane", [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-20" }),
         _vm._v(" "),
-        _c("input", { attrs: { type: "submit" } }),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "submit" },
-          domProps: { value: _vm.sample }
-        }),
-        _vm._v(" "),
-        _c("input", { attrs: { type: "text" } }),
-        _vm._v(" "),
-        _c("input", { attrs: { type: "text", placeholder: _vm.sample } })
+        _c(
+          "div",
+          { staticClass: "col-60" },
+          [
+            _c("veu-navbar", { attrs: { headroom: true, expand: "lg" } }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-100" }, [
+                    _c("h1", { staticClass: "align-center" }, [
+                      _vm._v(
+                        "\n                  Veumorphic UI Kit\n                "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-20" }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-30" },
+                    [_c("veu-button", { attrs: { text: "Buttons" } })],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-30" },
+                    [_c("veu-button", { attrs: { text: "Inputs" } })],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-20" })
+                ])
+              ])
+            ])
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
-      _c(
-        "veu-pane",
-        [
-          _c("p", [_vm._v("\n      Using without sample text\n    ")]),
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Using without sample text\n        ")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [_c("veu-button")], 1),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Using with sample text\n        ")])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "row" },
+          [_c("veu-button", { attrs: { text: _vm.sample } })],
+          1
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-100 align-center" },
+            [
+              _c("p", [_vm._v("\n            Rounded\n          ")]),
+              _vm._v(" "),
+              _c("veu-button", { attrs: { rounded: true } })
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n            Color Variants\n          ")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "primary" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("veu-button"),
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "secondary" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("p", [_vm._v("\n      Using with sample text\n    ")]),
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "info" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("veu-button", { attrs: { text: _vm.sample } }),
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "success" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("p", [_vm._v("\n      Rounded\n    ")]),
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "danger" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-20" },
+            [_c("veu-button", { attrs: { variant: "warning" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Hover Animations\n        ")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-20" }),
           _vm._v(" "),
-          _c("veu-button", { attrs: { rounded: true } }),
+          _c(
+            "div",
+            { staticClass: "col-40" },
+            [_c("veu-button", { attrs: { text: "Up", animate: "up" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("p", [_vm._v("\n      Color Variants\n    ")]),
+          _c(
+            "div",
+            { staticClass: "col-40" },
+            [_c("veu-button", { attrs: { text: "Down", animate: "down" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Sizes\n        ")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-25" },
+            [_c("veu-button", { attrs: { text: "Small", size: "sm" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "primary" } }),
+          _c(
+            "div",
+            { staticClass: "col-25" },
+            [_c("veu-button", { attrs: { text: "Regular", size: "md" } })],
+            1
+          ),
           _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "secondary" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "info" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "success" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "danger" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { variant: "warning" } }),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Hover Animations\n    ")]),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { text: "Up", animate: "up" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { text: "Down", animate: "down" } }),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Sizes\n    ")]),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { text: "Small", size: "sm" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { text: "Regular", size: "md" } }),
-          _vm._v(" "),
-          _c("veu-button", { attrs: { text: "Large", size: "lg" } }),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Text-Input without placeholder\n    ")]),
-          _vm._v(" "),
-          _c("veu-input"),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Text-Input with placeholder\n    ")]),
-          _vm._v(" "),
-          _c("veu-input", { attrs: { placeholder: _vm.sample } }),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Text-Input of varying sizes\n    ")]),
-          _vm._v(" "),
-          _c("veu-input", { attrs: { placeholder: "Small", size: "sm" } }),
-          _vm._v(" "),
-          _c("veu-input", { attrs: { placeholder: "Regular", size: "md" } }),
-          _vm._v(" "),
-          _c("veu-input", { attrs: { placeholder: "Large", size: "lg" } }),
-          _vm._v(" "),
-          _c("p", [_vm._v("\n      Text-Input that fits content\n    ")]),
-          _vm._v(" "),
-          _c("veu-input", {
-            attrs: {
-              placeholder: "I fit the contents written",
-              width: "fit-content"
-            }
-          }),
-          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-25" },
+            [_c("veu-button", { attrs: { text: "Large", size: "lg" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
           _c("p", [
-            _vm._v("\n      Text-Input that fills available space\n    ")
-          ]),
-          _vm._v(" "),
-          _c("veu-input", {
-            attrs: {
-              placeholder: "I fill the available space",
-              width: "fill-available"
-            }
-          })
-        ],
-        1
-      )
-    ],
-    1
-  )
+            _vm._v("\n          Text-Input without placeholder\n        ")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [_c("veu-input")], 1),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Text-Input with placeholder\n        ")])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "row" },
+          [_c("veu-input", { attrs: { placeholder: _vm.sample } })],
+          1
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [_vm._v("\n          Text-Input of varying sizes\n        ")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-100" },
+            [_c("veu-input", { attrs: { placeholder: "Small", size: "sm" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-100" },
+            [
+              _c("veu-input", { attrs: { placeholder: "Regular", size: "md" } })
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-100" },
+            [_c("veu-input", { attrs: { placeholder: "Large", size: "lg" } })],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [
+            _vm._v("\n          Text-Input that fits content\n        ")
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "row" },
+          [
+            _c("veu-input", {
+              attrs: {
+                placeholder: "I fit the contents written",
+                width: "fit-content"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("p", [
+            _vm._v(
+              "\n          Text-Input that fills available space\n        "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "row" },
+          [
+            _c("veu-input", {
+              attrs: {
+                placeholder: "I fill the available space",
+                width: "fill-available"
+              }
+            })
+          ],
+          1
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -509,6 +742,43 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"4e4615c8-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4e4615c8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "nav",
+    {
+      class: {
+        transparent: _vm.transparent,
+        headroom: _vm.headroom,
+        "expand-sm": _vm.expand == "sm",
+        "expand-md": _vm.expand == "md",
+        "expand-lg": _vm.expand == "lg"
+      }
+    },
+    [_vm._t("default")],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"4e4615c8-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuPane.vue?vue&type=template&id=c2e271a4&scoped=true&":
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4e4615c8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuPane.vue?vue&type=template&id=c2e271a4&scoped=true& ***!
@@ -529,6 +799,24 @@ var render = function() {
 var staticRenderFns = []
 render._withStripped = true
 
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./example/App.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/App.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, "\nbody {\n  margin: 0;\n  padding: 0;\n}\n.container {\n  border-radius: 5px;\n  padding: 20px;\n}\n[class*='col-'] {\n  float: left;\n  box-sizing: border-box;\n}\n/* Column with pre-defined width ratio: 20% */\n.col-20 { width: 20%;\n}\n/* Column with pre-defined width ratio: 25% */\n.col-25 { width: 25%;\n}\n/* Column with pre-defined width ratio: 30% */\n.col-30 { width: 30%;\n}\n/* Column with pre-defined width ratio: 40% */\n.col-40 { width: 40%;\n}\n/* Column with pre-defined width ratio: 60% */\n.col-60 { width: 60%;\n}\n/* Column with pre-defined width ratio: 70% */\n.col-70 { width: 70%;\n}\n/* Column with pre-defined width ratio: 75% */\n.col-75 { width: 75%;\n}\n/* Column with pre-defined width ratio: 80% */\n.col-80 { width: 80%;\n}\n/* Column with pre-defined width ratio: 100% */\n.col-100 { width: 100%;\n}\n/* Clear floats after the columns */\n.row {\n  display: flex;\n  width: 100%\n}\n.row:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.hidden {\n  display: none;\n}\n.align-center {\n  margin-left: auto;\n  margin-right: auto;\n}\n", "",{"version":3,"sources":["example/App.vue"],"names":[],"mappings":";AAsLA;EACA,SAAA;EACA,UAAA;AACA;AACA;EACA,kBAAA;EACA,aAAA;AACA;AACA;EACA,WAAA;EACA,sBAAA;AACA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,8CAAA;AACA,WAAA,WAAA;AAAA;AACA,mCAAA;AACA;EACA,aAAA;EACA;AACA;AACA;EACA,WAAA;EACA,cAAA;EACA,WAAA;AACA;AACA;EACA,aAAA;AACA;AACA;EACA,iBAAA;EACA,kBAAA;AACA","file":"App.vue","sourcesContent":["<template>\n  <veu-pane>\n    <div class='container'>\n      <div class='row'>\n        <div class='col-20'></div>\n        <div class='col-60'>\n          <veu-navbar :headroom='true' :expand='\"lg\"'>\n            <div class='container'>\n              <div class='row'>\n                <div class='col-100'>\n                  <h1 class='align-center'>\n                    Veumorphic UI Kit\n                  </h1>\n                </div>\n              </div>\n              <div class='row'>\n                <div class='col-20'></div>\n                <div class='col-30'>\n                  <veu-button :text='\"Buttons\"' />\n                </div>\n                <div class='col-30'>\n                  <veu-button :text='\"Inputs\"' />\n                </div>\n                <div class='col-20'></div>\n              </div>\n            </div>\n          </veu-navbar>\n        </div>\n      </div>\n      <div class='container'>\n        <div class='row'>\n          <p>\n            Using without sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button />\n        </div>\n        <div class='row'>\n          <p>\n            Using with sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button :text='sample' />\n        </div>\n        <div class='row'>\n          <div class='col-100 align-center'>\n            <p>\n              Rounded\n            </p>\n            <veu-button :rounded='true' />\n          </div>\n        </div>\n        <div class='row'>\n            <p>\n              Color Variants\n            </p>\n        </div>\n        <div class='row'>\n          <div class='col-20'>\n            <veu-button :variant='\"primary\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"secondary\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"info\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"success\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"danger\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-20'>\n            <veu-button :variant='\"warning\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Hover Animations\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-20'></div>\n          <div class='col-40'>\n            <veu-button :text='\"Up\"' :animate='\"up\"' />\n          </div>\n          <div class='col-40'>\n            <veu-button :text='\"Down\"' :animate='\"down\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-25'>\n            <veu-button :text='\"Small\"' :size='\"sm\"' />\n          </div>\n          <div class='col-25'>\n            <veu-button :text='\"Regular\"' :size='\"md\"' />\n          </div>\n          <div class='col-25'>\n            <veu-button :text='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input without placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input with placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='sample' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input of varying sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Small\"' :size='\"sm\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Regular\"' :size='\"md\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fits content\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='\"I fit the contents written\"' :width='\"fit-content\"' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fills available space\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n        </div>\n      </div>\n    </div>\n  </veu-pane>\n</template>\n\n<script>\n  import VeuButton from '../src/components/VeuButton.vue';\n  import VeuInput from '../src/components/VeuInput.vue';\n  import VeuNavbar from '../src/components/VeuNavbar.vue';\n  import VeuPane from '../src/components/VeuPane.vue';\n  export default {\n    components: {\n      VeuButton, VeuInput, VeuNavbar, VeuPane\n    },\n    data: () => ({ sample: 'Hello, World!' })\n  };\n</script>\n\n<style>\n  body {\n    margin: 0;\n    padding: 0;\n  }\n  .container {\n    border-radius: 5px;\n    padding: 20px;\n  }\n  [class*='col-'] {\n    float: left;\n    box-sizing: border-box;\n  }\n  /* Column with pre-defined width ratio: 20% */\n  .col-20 { width: 20%; }\n  /* Column with pre-defined width ratio: 25% */\n  .col-25 { width: 25%; }\n  /* Column with pre-defined width ratio: 30% */\n  .col-30 { width: 30%; }\n  /* Column with pre-defined width ratio: 40% */\n  .col-40 { width: 40%; }\n  /* Column with pre-defined width ratio: 60% */\n  .col-60 { width: 60%; }\n  /* Column with pre-defined width ratio: 70% */\n  .col-70 { width: 70%; }\n  /* Column with pre-defined width ratio: 75% */\n  .col-75 { width: 75%; }\n  /* Column with pre-defined width ratio: 80% */\n  .col-80 { width: 80%; }\n  /* Column with pre-defined width ratio: 100% */\n  .col-100 { width: 100%; }\n  /* Clear floats after the columns */\n  .row {\n    display: flex;\n    width: 100%\n  }\n  .row:after {\n    content: \"\";\n    display: block;\n    clear: both;\n  }\n  .hidden {\n    display: none;\n  }\n  .align-center {\n    margin-left: auto;\n    margin-right: auto;\n  }\n</style>"]}]);
+// Exports
+module.exports = exports;
 
 
 /***/ }),
@@ -569,6 +857,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, "\nnav[data-v-446c5856] {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem 1rem;\n  top: 0;\n  width: 100%;\n  z-index: 100;\n}\nnav.headroom[data-v-446c5856] {\n  will-change: transform;\n  transition: all .2s ease;\n}\nnav.transparent[data-v-446c5856] {\n  background-color: transparent;\n  border: 0;\n}\nnav.expand-lg[data-v-446c5856] {\n  flex-flow: row nowrap;\n  justify-content: flex-start;\n}\n", "",{"version":3,"sources":["src/components/VeuNavbar.vue"],"names":[],"mappings":";AAoCA;EACA,kBAAA;EACA,aAAA;EACA,eAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;EACA,MAAA;EACA,WAAA;EACA,YAAA;AACA;AAEA;EACA,sBAAA;EACA,wBAAA;AACA;AAEA;EACA,6BAAA;EACA,SAAA;AACA;AAEA;EACA,qBAAA;EACA,2BAAA;AACA","file":"VeuNavbar.vue","sourcesContent":["<!-- Template -->\n<template>\n  <nav\n    :class=\"{\n      'transparent': transparent,\n      'headroom':    headroom,\n      'expand-sm':   expand == 'sm',\n      'expand-md':   expand == 'md',\n      'expand-lg':   expand == 'lg'\n    }\">\n    <slot></slot>\n  </nav>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-navbar',\n    props: {\n      expand: {\n        default: 'none',\n        type: String\n      },\n      headroom: {\n        default: false,\n        type: Boolean\n      },\n      transparent: {\n        default: false,\n        type: Boolean\n      }\n    }\n  };\n</script>\n\n<style scoped>\n  nav {\n    position: relative;\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 1rem;\n    top: 0;\n    width: 100%;\n    z-index: 100;\n  }\n\n  nav.headroom {\n    will-change: transform;\n    transition: all .2s ease;\n  }\n\n  nav.transparent {\n    background-color: transparent;\n    border: 0;\n  }\n\n  nav.expand-lg {\n    flex-flow: row nowrap;\n    justify-content: flex-start;\n  }\n</style>"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuPane.vue?vue&type=style&index=0&id=c2e271a4&scoped=true&lang=css&":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuPane.vue?vue&type=style&index=0&id=c2e271a4&scoped=true&lang=css& ***!
@@ -580,7 +886,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "\n*[data-v-c2e271a4] {\n  color: #44476a;\n  background-color: #e6e7ee;\n}\n", "",{"version":3,"sources":["src/components/VeuPane.vue"],"names":[],"mappings":";AAeA;EACA,cAAA;EACA,yBAAA;AACA","file":"VeuPane.vue","sourcesContent":["<!-- Template -->\n<template>\n  <div>\n    <slot></slot>\n  </div>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-pane'\n  };\n</script>\n\n<style scoped>\n  * {\n    color: #44476a;\n    background-color: #e6e7ee;\n  }\n</style>"]}]);
+exports.push([module.i, "\n*[data-v-c2e271a4] {\n  color: #44476a;\n  background-color: #e6e7ee;\n\n  font-family: 'Nunito Sans', sans-serif;\n  font-size: 1rem;\n  font-weight: 300;\n}\n", "",{"version":3,"sources":["src/components/VeuPane.vue"],"names":[],"mappings":";AAeA;EACA,cAAA;EACA,yBAAA;;EAEA,sCAAA;EACA,eAAA;EACA,gBAAA;AACA","file":"VeuPane.vue","sourcesContent":["<!-- Template -->\n<template>\n  <div>\n    <slot></slot>\n  </div>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-pane'\n  };\n</script>\n\n<style scoped>\n  * {\n    color: #44476a;\n    background-color: #e6e7ee;\n\n    font-family: 'Nunito Sans', sans-serif;\n    font-size: 1rem;\n    font-weight: 300;\n  }\n</style>"]}]);
 // Exports
 module.exports = exports;
 
@@ -703,7 +1009,8 @@ function toComment(sourceMap) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_VeuButton_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/components/VeuButton.vue */ "./src/components/VeuButton.vue");
 /* harmony import */ var _src_components_VeuInput_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/VeuInput.vue */ "./src/components/VeuInput.vue");
-/* harmony import */ var _src_components_VeuPane_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/VeuPane.vue */ "./src/components/VeuPane.vue");
+/* harmony import */ var _src_components_VeuNavbar_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/VeuNavbar.vue */ "./src/components/VeuNavbar.vue");
+/* harmony import */ var _src_components_VeuPane_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/VeuPane.vue */ "./src/components/VeuPane.vue");
 //
 //
 //
@@ -774,6 +1081,105 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -781,7 +1187,8 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     VeuButton: _src_components_VeuButton_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     VeuInput: _src_components_VeuInput_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    VeuPane: _src_components_VeuPane_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    VeuNavbar: _src_components_VeuNavbar_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    VeuPane: _src_components_VeuPane_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
   },
   data: function data() {
     return {
@@ -1372,6 +1779,28 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./example/App.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./example/App.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/cache-loader/dist/cjs.js??ref--2-0!../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./example/App.vue?vue&type=style&index=0&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! ../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("49195325", content, false, {"sourceMap":true});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuButton.vue?vue&type=style&index=0&id=666d0278&scoped=true&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuButton.vue?vue&type=style&index=0&id=666d0278&scoped=true&lang=css& ***!
@@ -1411,6 +1840,28 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("3e5744f9", content, false, {"sourceMap":true});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/cache-loader/dist/cjs.js??ref--2-0!../../node_modules/vue-loader/lib??vue-loader-options!./VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! ../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("9487d3a8", content, false, {"sourceMap":true});
 // Hot Module Replacement
 if(false) {}
 
@@ -10412,6 +10863,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4e4615c8_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuInput_vue_vue_type_template_id_16a3d418_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4e4615c8_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuInput_vue_vue_type_template_id_16a3d418_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/components/VeuNavbar.vue":
+/*!**************************************!*\
+  !*** ./src/components/VeuNavbar.vue ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true& */ "./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true&");
+/* harmony import */ var _VeuNavbar_vue_vue_type_script_lang_javascript___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VeuNavbar.vue?vue&type=script&lang=javascript& */ "./src/components/VeuNavbar.vue?vue&type=script&lang=javascript&");
+/* empty/unused harmony star reexport *//* harmony import */ var _VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& */ "./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _VeuNavbar_vue_vue_type_script_lang_javascript___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "446c5856",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/components/VeuNavbar.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/components/VeuNavbar.vue?vue&type=script&lang=javascript&":
+/*!***********************************************************************!*\
+  !*** ./src/components/VeuNavbar.vue?vue&type=script&lang=javascript& ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_script_lang_javascript___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/cache-loader/dist/cjs.js??ref--2-0!../../node_modules/vue-loader/lib??vue-loader-options!./VeuNavbar.vue?vue&type=script&lang=javascript& */ "./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=script&lang=javascript&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_script_lang_javascript___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&":
+/*!***********************************************************************************************!*\
+  !*** ./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-style-loader??ref--3-oneOf-1-0!../../node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/cache-loader/dist/cjs.js??ref--2-0!../../node_modules/vue-loader/lib??vue-loader-options!./VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=style&index=0&id=446c5856&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_style_index_0_id_446c5856_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true&":
+/*!*********************************************************************************!*\
+  !*** ./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4e4615c8_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4e4615c8-vue-loader-template"}!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/cache-loader/dist/cjs.js??ref--2-0!../../node_modules/vue-loader/lib??vue-loader-options!./VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true& */ "./node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/vue-loader\",\"cacheIdentifier\":\"4e4615c8-vue-loader-template\"}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VeuNavbar.vue?vue&type=template&id=446c5856&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4e4615c8_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_vue_loader_cacheIdentifier_4e4615c8_vue_loader_template_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_cache_loader_dist_cjs_js_ref_2_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VeuNavbar_vue_vue_type_template_id_446c5856_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
