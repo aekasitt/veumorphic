@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build:docs": "vite build --outDir docs --base /veumorphic",
+    "build": "vite build",
+    "build:docs": "cd example && vite build --base /veumorphic --outDir ../docs",
     "serve": "vite preview"
   },
   "devDependencies": {
