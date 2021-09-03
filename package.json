@@ -7,8 +7,8 @@
   "author": "Sitt Guruvanich (@aekasitt)",
   "license": "MIT",
   "scripts": {
-    "build": "poi example/index.js --out-dir docs",
-    "build:pages": "poi example/index.js --out-dir docs --public-url /veumorphic",
+    "build": "poi example/index.js",
+    "build:docs": "poi example/index.js --out-dir docs --public-url /veumorphic",
     "dev": "poi --serve --watch --open example/index.js"
   },
   "devDependencies": {
