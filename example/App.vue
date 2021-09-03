@@ -2,7 +2,7 @@
   <veu-pane :theme='themes[themeIdx]'>
     <div class='container'>
       <div class='row'>
-        <div class='col-3'>&nbsp;</div>
+        <div class='offset-3'></div>
         <div class='col-6'>
           <veu-navbar :headroom='true' :expand='"lg"'>
             <div class='container'>
@@ -14,7 +14,7 @@
                 </div>
               </div>
               <div class='row'>
-                <div class='col-4'>&nbsp;</div>
+                <div class='offset-4'></div>
                 <div class='col-4 align-center'>
                   <veu-button :text='"Buttons"' />
                 </div>
@@ -31,23 +31,30 @@
       </div>
       <div class='container'>
         <div class='row'>
-          <p>
-            Using without sample text
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-4'>
+            <p>
+              Using without sample text
+            </p>
+          </div>
+          <div class='col-4'>
+            <p>
+              Using with sample text
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <veu-button />
+          <div class='offset-2'></div>
+          <div class='col-4'>
+            <veu-button />
+          </div>
+          <div class='col-4'>
+            <veu-button :text='sample' />
+          </div>
         </div>
         <div class='row'>
-          <p>
-            Using with sample text
-          </p>
-        </div>
-        <div class='row'>
-          <veu-button :text='sample' />
-        </div>
-        <div class='row'>
-          <div class='col-12 align-center'>
+          <div class='offset-2'></div>
+          <div class='col-8'>
             <p>
               Rounded
             </p>
@@ -55,9 +62,12 @@
           </div>
         </div>
         <div class='row'>
+          <div class='offset-2'></div>
+          <div class='col-8'>
             <p>
               Color Variants
             </p>
+          </div>
         </div>
         <div class='row'>
           <div class='col-4 align-center'>
@@ -87,12 +97,15 @@
           </div>
         </div>
         <div class='row'>
-          <p>
-            Hover Animations
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Hover Animations
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <div class='col-3'>&nbsp;</div>
+          <div class='offset-3'></div>
           <div class='col-3 align-center'>
             <veu-button :text='"Up"' :animate='"up"' />
           </div>
@@ -101,9 +114,12 @@
           </div>
         </div>
         <div class='row'>
-          <p>
-            Sizes
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Sizes
+            </p>
+          </div>
         </div>
         <div class='row'>
           <div class='col-4 align-center'>
@@ -117,72 +133,99 @@
           </div>
         </div>
         <div class='row'>
-          <p>
-            Text-Input without placeholder
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Text-Input without placeholder
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <veu-input />
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <veu-input />
+          </div>
         </div>
         <div class='row'>
-          <p>
-            Text-Input with placeholder
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Text-Input with placeholder
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <veu-input :placeholder='sample' />
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <veu-input :placeholder='sample' />
+          </div>
         </div>
         <div class='row'>
-          <p>
-            Text-Input of varying sizes
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Text-Input of varying sizes
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <div class='col-2'>&nbsp;</div>
+          <div class='offset-2'></div>
           <div class='col-8'>
             <veu-input :placeholder='"Small"' :size='"sm"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-2'>&nbsp;</div>
+          <div class='offset-2'></div>
           <div class='col-8'>
             <veu-input :placeholder='"Regular"' :size='"md"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-2'>&nbsp;</div>
+          <div class='offset-2'></div>
           <div class='col-8'>
             <veu-input :placeholder='"Large"' :size='"lg"' />
           </div>
         </div>
         <div class='row'>
-          <p>
-            Text-Input that fits content
-          </p>
+          <div class='offset-2'></div>
+          <div class='col-8'>
+            <p>
+              Text-Input that fits content
+            </p>
+          </div>
         </div>
         <div class='row'>
-          <veu-input :placeholder='"I fit the contents written"' :width='"fit-content"' />
+          <div class='offset-2'></div>
+          <div class='col-6'>
+            <veu-input :placeholder='"I fit the contents written"' :width='"fit-content"' />
+          </div>
         </div>
         <div class='row'>
-          <p>
-            Text-Input that fills available space
-          </p>
+          <div class='row'>
+            <div class='offset-2'></div>
+            <div class='col-8'>
+              <p>
+                Text-Input that fills available space
+              </p>
+            </div>
+          </div>
         </div>
         <div class='row'>
-          <div class='col-2'>&nbsp;</div>
+          <div class='offset-2'>&nbsp;</div>
           <div class='col-8'>
             <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
           </div>
         </div>
         <div class='row'>
-          <div class='col-2'>&nbsp;</div>
-          <div class='col-4'>
+          <div class='offset-2'>&nbsp;</div>
+          <div class='col-2'>
             <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
           </div>
-          <div class='col-4'>
+          <div class='offset-2'></div>
+          <div class='col-2'>
             <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
           </div>
-          <div class='col-4'>
+          <div class='col-2'>
             <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
           </div>
         </div>
@@ -242,6 +285,30 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .offset-1 {width: 8.33%;}
+  .offset-2 {width: 16.66%;}
+  .offset-3 {width: 25%;}
+  .offset-4 {width: 33.33%;}
+  .offset-5 {width: 41.66%;}
+  .offset-6 {width: 50%;}
+  .offset-7 {width: 58.33%;}
+  .offset-8 {width: 66.66%;}
+  .offset-9 {width: 75%;}
+  .offset-10 {width: 83.33%;}
+  .offset-11 {width: 91.66%;}
+  .offset-12 {width: 100%;}
+  [class*='offset-']:after { /* clear offset content */
+    content: "";
+  }
+  @media only screen and (max-width: 600px) {
+    [class*='col-'] { /* Make all columns fill area on small screens */
+      width: 100%;
+    }
+    [class*='offset-'] { /* Make all offsets disappear on small screens */
+      display: none;
+    }
+  }
+
   /* Clear floats after the columns */
   .row {
     display: flex;
