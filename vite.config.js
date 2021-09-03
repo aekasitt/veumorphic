@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = {
   plugins: [createVuePlugin(/*options*/)],
   build: {
+    cssCodeSplit: true,
     lib: {
       entry: path.resolve(__dirname, 'src', 'index.js'),
       name: 'veumorphic',
