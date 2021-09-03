@@ -1,6 +1,8 @@
 <!-- Template -->
 <template>
   <div :class="{
+    'cloud': theme == 'cloud',
+    'dark':  theme == 'dark',
     'grey':  theme == 'grey',
     'sepia': theme == 'sepia',
     }">
@@ -36,5 +38,13 @@
   .sepia {
     background-color: #EDDAB2;
     color: #834E56;
+  }
+  .cloud {
+    background-color: #E6F1F9;
+    color: #445862;
+  }
+  .dark {
+    background-color: #60688A;
+    color: #C9CDE4;
   }
 </style>

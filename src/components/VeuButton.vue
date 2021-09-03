@@ -97,6 +97,7 @@
 
   button:disabled {
     pointer-events: none;
+    opacity: .6;
   }
 
   button:focus {
@@ -186,11 +187,13 @@
   /**
    * Dynamic Coloring
    */
+
+   /* GREY (Default) THEME */
+
   .grey button:disabled {
     color: #31344B;
     background-color: #D8DEE9;
     border-color: #D8DEE9;
-    opacity: .6;
   }
 
   .grey button:hover {
@@ -213,11 +216,12 @@
     border-color: #C8C9D0;
   }
 
+  /* SEPIA THEME */
+
   .sepia button:disabled {
     color: #644147;
     background-color: #EFD59A;
     border-color: #EFD59A;
-    opacity: .6;
   }
 
   .sepia button:hover {
@@ -237,5 +241,65 @@
     color: #644147;
     background-color: #C7BB9C;
     border-color: #C7BB9C;
+  }
+
+  /* CLOUD THEME */
+
+  .cloud button:disabled {
+    background-color: #B0D8F1;
+    border-color: #B0D8F1;
+  }
+  .cloud button:hover {
+    color: #20272C;
+    background-color: #B7C9D5;
+  }
+
+  .cloud button:not(:disabled):not(.disabled):active,
+  .cloud button:not(:disabled):not(.disabled).active {
+    color: #20272C;
+    background-color: #B7C9D5;
+    border-color: #B7C9D5;
+  }
+
+  .cloud button:not(:disabled):not(.disabled):active:focus,
+  .cloud button:not(:disabled):not(.disabled).active:focus {
+    color: #20272C;
+    background-color: #B7C9D5;
+    border-color: #B7C9D5;
+  }
+
+   /* DARK THEME */
+
+  .dark button {
+    color: #C9CDE4;
+    box-shadow: 3px 3px 6px #232635, -3px -3px 6px #C9CDE4;
+    border-color: #656C98;
+  }
+
+  .dark button:disabled {
+    background-color: #656C98;
+    border-color: #656C98;
+  }
+
+  .dark button:hover {
+    color: #20272C;
+    background-color: #3B405B;
+    box-shadow: 3px 3px 6px #C9CDE4, -3px -3px 6px #232635;
+  }
+
+  .dark button:not(:disabled):not(.disabled):active,
+  .dark button:not(:disabled):not(.disabled).active {
+    color: #20272C;
+    background-color: #3B405B;
+    border-color: #3B405B;
+    box-shadow: 3px 3px 6px #C9CDE4, -3px -3px 6px #232635;
+  }
+
+  .dark button:not(:disabled):not(.disabled):active:focus,
+  .dark button:not(:disabled):not(.disabled).active:focus {
+    color: #20272C;
+    background-color: #3B405B;
+    border-color: #3B405B;
+    box-shadow: 3px 3px 6px #C9CDE4, -3px -3px 6px #232635;
   }
 </style>
