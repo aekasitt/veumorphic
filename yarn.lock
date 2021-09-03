@@ -1444,6 +1444,11 @@ vite@^2.0.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-router@^2.6.14:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.8.1.tgz#9833c9ee57ac83beb0269056fefee71713f20695"
+  integrity sha512-MC4jacHBhTPKtmcfzvaj2N7g6jgJ/Z/eIjZdt+yUaUOM1iKC0OUIlO/xCtz6OZFFTNUJs/1YNro2GN/lE+nOXA==
+
 vue-template-compiler@^2.6.14:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz#a2f0e7d985670d42c9c9ee0d044fed7690f4f763"
