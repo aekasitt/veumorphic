@@ -6,7 +6,7 @@ import App from './App.vue';
 Vue.use(VueRouter);
 let router = new VueRouter({routes});
 
-import Veumorphic from '../src';
+import Veumorphic from 'veumorphic';
 Veumorphic.install(Vue);
 
 new Vue({
