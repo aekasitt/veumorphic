@@ -16,9 +16,9 @@ export {
 /* Bundle installation by Veumorphic.install(Vue) */
 export default {
   install ( Vue ) {
-    Vue.component('veu-button', VeuButton);
-    Vue.component('veu-input', VeuInput);
-    Vue.component('veu-navbar', VeuNavbar);
-    Vue.component('veu-pane', VeuPane);
+    Vue.component('VeuButton', VeuButton);
+    Vue.component('VeuInput', VeuInput);
+    Vue.component('VeuNavbar', VeuNavbar);
+    Vue.component('VeuPane', VeuPane);
   }
 }
