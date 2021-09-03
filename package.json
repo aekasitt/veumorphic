@@ -5,6 +5,7 @@
   "main": "dist/veumorphic.umd.js",
   "module": "dist/veumorphic.es.js",
   "repository": "https://github.com/aekazitt/veumorphic",
+  "homepage": "https://aekazitt.github.io/veumorphic",
   "author": "Sitt Guruvanich (@aekasitt)",
   "license": "MIT",
   "scripts": {
