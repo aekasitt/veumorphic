@@ -39,13 +39,7 @@
 </template>
 
 <script>
-  import VeuNavbar from '../src/components/VeuNavbar.vue';
-  import VeuButton from '../src/components/VeuButton.vue';
-  import VeuPane from '../src/components/VeuPane.vue';
   export default {
-    components: {
-      VeuButton, VeuNavbar, VeuPane
-    },
     methods: {
       toggleTheme() {
         let vue = this;

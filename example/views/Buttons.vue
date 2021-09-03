@@ -106,9 +106,7 @@
 </template>
 
 <script lang='javascript'>
-  import VeuButton from '../../src/components/VeuButton.vue';
   export default {
-    name: 'Buttons',
-    components: { VeuButton }
+    name: 'Buttons'
   }
 </script>

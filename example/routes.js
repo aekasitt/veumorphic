@@ -3,7 +3,7 @@ import Buttons from './views/Buttons.vue';
 import Inputs from './views/Inputs.vue';
 
 export default [{
-  path: '/',
+  path: '*',
   redirect: 'buttons',
 },
 {

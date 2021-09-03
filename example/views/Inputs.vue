@@ -100,9 +100,7 @@
   </div>
 </template>
 <script lang='javascript'>
-  import VeuInput from '../../src/components/VeuInput.vue';
   export default {
-    name: 'Inputs',
-    components: { VeuInput }
+    name: 'Inputs'
   }
 </script>
