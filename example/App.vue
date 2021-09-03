@@ -19,6 +19,30 @@
       </p>
       <veu-button :text='sample' />
       <p>
+        Rounded
+      </p>
+      <veu-button :rounded='true' />
+      <p>
+        Color Variants
+      </p>
+      <veu-button :variant='"primary"' />
+      <veu-button :variant='"secondary"' />
+      <veu-button :variant='"info"' />
+      <veu-button :variant='"success"' />
+      <veu-button :variant='"danger"' />
+      <veu-button :variant='"warning"' />
+      <p>
+        Hover Animations
+      </p>
+      <veu-button :text='"Up"' :animate='"up"' />
+      <veu-button :text='"Down"' :animate='"down"' />
+      <p>
+        Sizes
+      </p>
+      <veu-button :text='"Small"' :size='"sm"' />
+      <veu-button :text='"Regular"' :size='"md"' />
+      <veu-button :text='"Large"' :size='"lg"' />
+      <p>
         Input without placeholder
       </p>
       <veu-input />
