@@ -101,6 +101,7 @@
 </template>
 <script lang='javascript'>
   export default {
-    name: 'Inputs'
+    name: 'Inputs',
+    data: () => ({ 'sample': 'Hello, World!' })
   }
 </script>
