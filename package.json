@@ -7,8 +7,8 @@
   "author": "Sitt Guruvanich (@aekasitt)",
   "license": "MIT",
   "scripts": {
-    "build": "poi example/index.js",
-    "serve": "poi --serve --open example/index.js"
+    "build": "poi example/index.js --out-dir docs",
+    "serve": "poi --serve --warch --open example/index.js"
   },
   "devDependencies": {
     "poi": "^12.10.3",
