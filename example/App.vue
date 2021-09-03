@@ -1,5 +1,5 @@
 <template>
-  <veu-pane :theme='themes[themeIdx]'>
+  <veu-pane :theme='themes[themeIdx]' style='height: 100vh'>
     <div class='container'>
       <div class='row'>
         <div class='offset-3'></div>
