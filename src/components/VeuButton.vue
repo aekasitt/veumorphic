@@ -64,8 +64,8 @@
     background-color:#e6e7ee;
     border-color:#e6e7ee
   }
-  input[type='submit']:not(:disabled):not(.disabled).active:focus,
-  input[type='submit']:not(:disabled):not(:disabled):active.focus
+  input[type='submit']:not(:disabled):not(.disabled):active:focus,
+  input[type='submit']:not(:disabled):not(.disabled).active:focus
   {
     color:#31344b;
     background-color:#e6e7ee;
