@@ -1,7 +1,7 @@
 // src/index.js
 
-import VeuButton from './components/VeuButton.js';
-import VeuInput from './components/VeuInput.js';
+import VeuButton from './components/VeuButton.vue';
+import VeuInput from './components/VeuInput.vue';
 
 export {
   VeuButton,
