@@ -1,6 +1,6 @@
 {
   "name": "veumorphic",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Neumorphic UI Kit bundled as Vue Components",
   "main": "./dist/veumorphic.umd.js",
   "module": "./dist/veumorphic.es.js",
@@ -20,10 +20,12 @@
     "dev": "cd example && vite",
     "serve": "vite preview"
   },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
   "devDependencies": {
     "vite": "^2.0.5",
     "vite-plugin-vue2": "^1.4.0",
-    "vue": "^2.6.14",
     "vue-router": "^2.6.14",
     "vue-template-compiler": "^2.6.14"
   }
