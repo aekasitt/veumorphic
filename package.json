@@ -9,7 +9,7 @@
   "scripts": {
     "build": "poi example/index.js --out-dir docs",
     "build:pages": "poi example/index.js --out-dir docs --public-url /veumorphic",
-    "serve": "poi --serve --warch --open example/index.js"
+    "dev": "poi --serve --warch --open example/index.js"
   },
   "devDependencies": {
     "poi": "^12.10.3",
