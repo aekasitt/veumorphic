@@ -2,7 +2,7 @@
   <veu-pane>
     <div class='container'>
       <div class='row'>
-        <div class='col-3'></div>
+        <div class='col-3'>&nbsp;</div>
         <div class='col-6'>
           <veu-navbar :headroom='true' :expand='"lg"'>
             <div class='container'>
@@ -14,7 +14,7 @@
                 </div>
               </div>
               <div class='row'>
-                <div class='col-4'></div>
+                <div class='col-4'>&nbsp;</div>
                 <div class='col-4 align-center'>
                   <veu-button :text='"Buttons"' />
                 </div>
