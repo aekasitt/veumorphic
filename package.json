@@ -1,6 +1,6 @@
 {
   "name": "veumorphic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Neumorphic UI Kit bundled as Vue Components",
   "main": "dist/veumorphic.es.js",
   "module": "dist/veumorphic.umd.js",
