@@ -1,5 +1,10 @@
 <template>
   <veu-pane>
+    <veu-navbar :headroom='true' :expand='"lg"'>
+      <h1>
+        Veumorphic UI Kit
+      </h1>
+    </veu-navbar>
     <p>
       Using without sample text
     </p>
@@ -60,11 +65,19 @@
 <script>
   import VeuButton from '../src/components/VeuButton.vue';
   import VeuInput from '../src/components/VeuInput.vue';
+  import VeuNavbar from '../src/components/VeuNavbar.vue';
   import VeuPane from '../src/components/VeuPane.vue';
   export default {
     components: {
-      VeuButton, VeuInput, VeuPane
+      VeuButton, VeuInput, VeuNavbar, VeuPane
     },
     data: () => ({ sample: 'Hello, World!' })
   };
 </script>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+</style>
