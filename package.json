@@ -8,9 +8,9 @@
   "author": "Sitt Guruvanich (@aekasitt)",
   "license": "MIT",
   "scripts": {
-    "dev": "cd example && vite",
     "build": "vite build",
     "build:docs": "cd example && vite build --base /veumorphic --outDir ../docs",
+    "dev": "cd example && vite",
     "serve": "vite preview"
   },
   "devDependencies": {
