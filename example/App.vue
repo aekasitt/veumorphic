@@ -59,24 +59,24 @@
         </div>
         <div class='row'>
           <div class='col-20'>
-            <veu-button :variant='"primary"' />
+            <veu-button :text='"Primary"' :variant='"primary"' />
           </div>
           <div class='col-20'>
-            <veu-button :variant='"secondary"' />
+            <veu-button :text='"Secondary"' :variant='"secondary"' />
           </div>
           <div class='col-20'>
-            <veu-button :variant='"info"' />
+            <veu-button :text='"Info"' :variant='"info"' />
           </div>
           <div class='col-20'>
-            <veu-button :variant='"success"' />
+            <veu-button :text='"Success"' :variant='"success"' />
           </div>
           <div class='col-20'>
-            <veu-button :variant='"danger"' />
+            <veu-button :text='"Danger"' :variant='"danger"' />
           </div>
         </div>
         <div class='row'>
           <div class='col-20'>
-            <veu-button :variant='"warning"' />
+            <veu-button :text='"Warning"' :variant='"warning"' />
           </div>
         </div>
         <div class='row'>
