@@ -107,6 +107,7 @@
 
 <script lang='javascript'>
   export default {
-    name: 'Buttons'
+    name: 'Buttons',
+    data: () => ({ sample: 'Hello, World!' })
   }
 </script>

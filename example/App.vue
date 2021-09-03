@@ -50,7 +50,6 @@
       }
     },
     data: () => ({
-      sample: 'Hello, World!',
       themeIdx: 0,
       themes: [ 'grey', 'sepia', 'cloud', 'dark' ]
     })
