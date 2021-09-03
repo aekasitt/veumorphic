@@ -48,7 +48,7 @@
   /**
    * Sizes
    */
-  input.size-md {
+  input.size-sm {
     font-size: .875rem;
     line-height: 1;
   }
