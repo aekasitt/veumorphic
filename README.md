@@ -2,7 +2,7 @@
 
 A simple UI Kit for Vue2 containing neumorphic styled elements
 
-## Components 
+## Components
 
 * [VeuButton](./src/components/VeuButton.vue)
 * [VeuCheckbox](./src/components/VeuCheckbox.vue) `WIP`
