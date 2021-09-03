@@ -242,7 +242,7 @@
   /* CLOUD THEME */
 
   .cloud button:disabled {
-    background-color: #B0D8F1;
+    background-color: #CBDAE8;
     border-color: #B0D8F1;
   }
 
