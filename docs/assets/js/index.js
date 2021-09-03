@@ -388,11 +388,11 @@ var render = function() {
   return _c("veu-pane", [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-20" }),
+        _c("div", { staticClass: "col-3" }),
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "col-60" },
+          { staticClass: "col-6" },
           [
             _c("veu-navbar", { attrs: { headroom: true, expand: "lg" } }, [
               _c("div", { staticClass: "container" }, [
@@ -407,23 +407,23 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-20" }),
+                  _c("div", { staticClass: "col-4" }),
                   _vm._v(" "),
                   _c(
                     "div",
-                    { staticClass: "col-30" },
+                    { staticClass: "col-4 align-center" },
                     [_c("veu-button", { attrs: { text: "Buttons" } })],
                     1
                   ),
                   _vm._v(" "),
                   _c(
                     "div",
-                    { staticClass: "col-30" },
+                    { staticClass: "col-4 align-center" },
                     [_c("veu-button", { attrs: { text: "Inputs" } })],
                     1
                   ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "col-20" })
+                  _c("div", { staticClass: "col-4" })
                 ])
               ])
             ])
@@ -453,7 +453,7 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
-            { staticClass: "col-100 align-center" },
+            { staticClass: "col-12 align-center" },
             [
               _c("p", [_vm._v("\n            Rounded\n          ")]),
               _vm._v(" "),
@@ -470,36 +470,30 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "primary" } })],
+            { staticClass: "col-4 align-center" },
+            [
+              _c("veu-button", {
+                attrs: { text: "Primary", variant: "primary" }
+              })
+            ],
             1
           ),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "secondary" } })],
+            { staticClass: "col-4 align-center" },
+            [
+              _c("veu-button", {
+                attrs: { text: "Secondary", variant: "secondary" }
+              })
+            ],
             1
           ),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "info" } })],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "success" } })],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "danger" } })],
+            { staticClass: "col-4 align-center" },
+            [_c("veu-button", { attrs: { text: "Info", variant: "info" } })],
             1
           )
         ]),
@@ -507,8 +501,32 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
-            { staticClass: "col-20" },
-            [_c("veu-button", { attrs: { variant: "warning" } })],
+            { staticClass: "col-4 align-center" },
+            [
+              _c("veu-button", {
+                attrs: { text: "Success", variant: "success" }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-4 align-center" },
+            [
+              _c("veu-button", { attrs: { text: "Danger", variant: "danger" } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-4 align-center" },
+            [
+              _c("veu-button", {
+                attrs: { text: "Warning", variant: "warning" }
+              })
+            ],
             1
           )
         ]),
@@ -518,18 +536,18 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-20" }),
+          _c("div", { staticClass: "col-3" }, [_vm._v(" ")]),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-40" },
+            { staticClass: "col-3 align-center" },
             [_c("veu-button", { attrs: { text: "Up", animate: "up" } })],
             1
           ),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-40" },
+            { staticClass: "col-3 align-center" },
             [_c("veu-button", { attrs: { text: "Down", animate: "down" } })],
             1
           )
@@ -542,21 +560,21 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
-            { staticClass: "col-25" },
+            { staticClass: "col-4 align-center" },
             [_c("veu-button", { attrs: { text: "Small", size: "sm" } })],
             1
           ),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-25" },
+            { staticClass: "col-4 align-center" },
             [_c("veu-button", { attrs: { text: "Regular", size: "md" } })],
             1
           ),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-25" },
+            { staticClass: "col-4 align-center" },
             [_c("veu-button", { attrs: { text: "Large", size: "lg" } })],
             1
           )
@@ -586,18 +604,22 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2" }, [_vm._v(" ")]),
+          _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-100" },
+            { staticClass: "col-8" },
             [_c("veu-input", { attrs: { placeholder: "Small", size: "sm" } })],
             1
           )
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2" }, [_vm._v(" ")]),
+          _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-100" },
+            { staticClass: "col-8" },
             [
               _c("veu-input", { attrs: { placeholder: "Regular", size: "md" } })
             ],
@@ -606,9 +628,11 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2" }, [_vm._v(" ")]),
+          _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-100" },
+            { staticClass: "col-8" },
             [_c("veu-input", { attrs: { placeholder: "Large", size: "lg" } })],
             1
           )
@@ -642,19 +666,69 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "row" },
-          [
-            _c("veu-input", {
-              attrs: {
-                placeholder: "I fill the available space",
-                width: "fill-available"
-              }
-            })
-          ],
-          1
-        )
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2" }, [_vm._v(" ")]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-8" },
+            [
+              _c("veu-input", {
+                attrs: {
+                  placeholder: "I fill the available space",
+                  width: "fill-available"
+                }
+              })
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2" }, [_vm._v(" ")]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-4" },
+            [
+              _c("veu-input", {
+                attrs: {
+                  placeholder: "I fill the available space",
+                  width: "fill-available"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-4" },
+            [
+              _c("veu-input", {
+                attrs: {
+                  placeholder: "I fill the available space",
+                  width: "fill-available"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-4" },
+            [
+              _c("veu-input", {
+                attrs: {
+                  placeholder: "I fill the available space",
+                  width: "fill-available"
+                }
+              })
+            ],
+            1
+          )
+        ])
       ])
     ])
   ])
@@ -814,7 +888,7 @@ render._withStripped = true
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "\nbody {\n  margin: 0;\n  padding: 0;\n}\n.container {\n  border-radius: 5px;\n  padding: 20px;\n}\n[class*='col-'] {\n  float: left;\n  box-sizing: border-box;\n}\n/* Column with pre-defined width ratio: 20% */\n.col-20 { width: 20%;\n}\n/* Column with pre-defined width ratio: 25% */\n.col-25 { width: 25%;\n}\n/* Column with pre-defined width ratio: 30% */\n.col-30 { width: 30%;\n}\n/* Column with pre-defined width ratio: 40% */\n.col-40 { width: 40%;\n}\n/* Column with pre-defined width ratio: 60% */\n.col-60 { width: 60%;\n}\n/* Column with pre-defined width ratio: 70% */\n.col-70 { width: 70%;\n}\n/* Column with pre-defined width ratio: 75% */\n.col-75 { width: 75%;\n}\n/* Column with pre-defined width ratio: 80% */\n.col-80 { width: 80%;\n}\n/* Column with pre-defined width ratio: 100% */\n.col-100 { width: 100%;\n}\n/* Clear floats after the columns */\n.row {\n  display: flex;\n  width: 100%\n}\n.row:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.hidden {\n  display: none;\n}\n.align-center {\n  margin-left: auto;\n  margin-right: auto;\n}\n", "",{"version":3,"sources":["example/App.vue"],"names":[],"mappings":";AAsLA;EACA,SAAA;EACA,UAAA;AACA;AACA;EACA,kBAAA;EACA,aAAA;AACA;AACA;EACA,WAAA;EACA,sBAAA;AACA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,6CAAA;AACA,UAAA,UAAA;AAAA;AACA,8CAAA;AACA,WAAA,WAAA;AAAA;AACA,mCAAA;AACA;EACA,aAAA;EACA;AACA;AACA;EACA,WAAA;EACA,cAAA;EACA,WAAA;AACA;AACA;EACA,aAAA;AACA;AACA;EACA,iBAAA;EACA,kBAAA;AACA","file":"App.vue","sourcesContent":["<template>\n  <veu-pane>\n    <div class='container'>\n      <div class='row'>\n        <div class='col-20'></div>\n        <div class='col-60'>\n          <veu-navbar :headroom='true' :expand='\"lg\"'>\n            <div class='container'>\n              <div class='row'>\n                <div class='col-100'>\n                  <h1 class='align-center'>\n                    Veumorphic UI Kit\n                  </h1>\n                </div>\n              </div>\n              <div class='row'>\n                <div class='col-20'></div>\n                <div class='col-30'>\n                  <veu-button :text='\"Buttons\"' />\n                </div>\n                <div class='col-30'>\n                  <veu-button :text='\"Inputs\"' />\n                </div>\n                <div class='col-20'></div>\n              </div>\n            </div>\n          </veu-navbar>\n        </div>\n      </div>\n      <div class='container'>\n        <div class='row'>\n          <p>\n            Using without sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button />\n        </div>\n        <div class='row'>\n          <p>\n            Using with sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button :text='sample' />\n        </div>\n        <div class='row'>\n          <div class='col-100 align-center'>\n            <p>\n              Rounded\n            </p>\n            <veu-button :rounded='true' />\n          </div>\n        </div>\n        <div class='row'>\n            <p>\n              Color Variants\n            </p>\n        </div>\n        <div class='row'>\n          <div class='col-20'>\n            <veu-button :variant='\"primary\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"secondary\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"info\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"success\"' />\n          </div>\n          <div class='col-20'>\n            <veu-button :variant='\"danger\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-20'>\n            <veu-button :variant='\"warning\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Hover Animations\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-20'></div>\n          <div class='col-40'>\n            <veu-button :text='\"Up\"' :animate='\"up\"' />\n          </div>\n          <div class='col-40'>\n            <veu-button :text='\"Down\"' :animate='\"down\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-25'>\n            <veu-button :text='\"Small\"' :size='\"sm\"' />\n          </div>\n          <div class='col-25'>\n            <veu-button :text='\"Regular\"' :size='\"md\"' />\n          </div>\n          <div class='col-25'>\n            <veu-button :text='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input without placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input with placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='sample' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input of varying sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Small\"' :size='\"sm\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Regular\"' :size='\"md\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-100'>\n            <veu-input :placeholder='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fits content\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='\"I fit the contents written\"' :width='\"fit-content\"' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fills available space\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n        </div>\n      </div>\n    </div>\n  </veu-pane>\n</template>\n\n<script>\n  import VeuButton from '../src/components/VeuButton.vue';\n  import VeuInput from '../src/components/VeuInput.vue';\n  import VeuNavbar from '../src/components/VeuNavbar.vue';\n  import VeuPane from '../src/components/VeuPane.vue';\n  export default {\n    components: {\n      VeuButton, VeuInput, VeuNavbar, VeuPane\n    },\n    data: () => ({ sample: 'Hello, World!' })\n  };\n</script>\n\n<style>\n  body {\n    margin: 0;\n    padding: 0;\n  }\n  .container {\n    border-radius: 5px;\n    padding: 20px;\n  }\n  [class*='col-'] {\n    float: left;\n    box-sizing: border-box;\n  }\n  /* Column with pre-defined width ratio: 20% */\n  .col-20 { width: 20%; }\n  /* Column with pre-defined width ratio: 25% */\n  .col-25 { width: 25%; }\n  /* Column with pre-defined width ratio: 30% */\n  .col-30 { width: 30%; }\n  /* Column with pre-defined width ratio: 40% */\n  .col-40 { width: 40%; }\n  /* Column with pre-defined width ratio: 60% */\n  .col-60 { width: 60%; }\n  /* Column with pre-defined width ratio: 70% */\n  .col-70 { width: 70%; }\n  /* Column with pre-defined width ratio: 75% */\n  .col-75 { width: 75%; }\n  /* Column with pre-defined width ratio: 80% */\n  .col-80 { width: 80%; }\n  /* Column with pre-defined width ratio: 100% */\n  .col-100 { width: 100%; }\n  /* Clear floats after the columns */\n  .row {\n    display: flex;\n    width: 100%\n  }\n  .row:after {\n    content: \"\";\n    display: block;\n    clear: both;\n  }\n  .hidden {\n    display: none;\n  }\n  .align-center {\n    margin-left: auto;\n    margin-right: auto;\n  }\n</style>"]}]);
+exports.push([module.i, "\nbody {\n  margin: 0;\n  padding: 0;\n}\n.container {\n  border-radius: 5px;\n  padding: 20px;\n}\n[class*='col-'] {\n  float: left;\n  box-sizing: border-box;\n}\n.col-1 {width: 8.33%};\n.col-2 {width: 16.66%;}\n.col-3 {width: 25%;}\n.col-4 {width: 33.33%;}\n.col-5 {width: 41.66%;}\n.col-6 {width: 50%;}\n.col-7 {width: 58.33%;}\n.col-8 {width: 66.66%;}\n.col-9 {width: 75%;}\n.col-10 {width: 83.33%;}\n.col-11 {width: 91.66%;}\n.col-12 {width: 100%;}\n/* Clear floats after the columns */\n.row {\n  display: flex;\n  width: 100%\n}\n.row:after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.hidden {\n  display: none;\n}\n.align-center {\n  text-align: center;\n}\n", "",{"version":3,"sources":["example/App.vue"],"names":[],"mappings":";AAwMA;EACA,SAAA;EACA,UAAA;AACA;AACA;EACA,kBAAA;EACA,aAAA;AACA;AACA;EACA,WAAA;EACA,sBAAA;AACA;AACA,QAAA,YAAA,CAAA;AACA,QAAA,aAAA,CAAA;AACA,QAAA,UAAA,CAAA;AACA,QAAA,aAAA,CAAA;AACA,QAAA,aAAA,CAAA;AACA,QAAA,UAAA,CAAA;AACA,QAAA,aAAA,CAAA;AACA,QAAA,aAAA,CAAA;AACA,QAAA,UAAA,CAAA;AACA,SAAA,aAAA,CAAA;AACA,SAAA,aAAA,CAAA;AACA,SAAA,WAAA,CAAA;AACA,mCAAA;AACA;EACA,aAAA;EACA;AACA;AACA;EACA,WAAA;EACA,cAAA;EACA,WAAA;AACA;AACA;EACA,aAAA;AACA;AACA;EACA,kBAAA;AACA","file":"App.vue","sourcesContent":["<template>\n  <veu-pane>\n    <div class='container'>\n      <div class='row'>\n        <div class='col-3'></div>\n        <div class='col-6'>\n          <veu-navbar :headroom='true' :expand='\"lg\"'>\n            <div class='container'>\n              <div class='row'>\n                <div class='col-100'>\n                  <h1 class='align-center'>\n                    Veumorphic UI Kit\n                  </h1>\n                </div>\n              </div>\n              <div class='row'>\n                <div class='col-4'></div>\n                <div class='col-4 align-center'>\n                  <veu-button :text='\"Buttons\"' />\n                </div>\n                <div class='col-4 align-center'>\n                  <veu-button :text='\"Inputs\"' />\n                </div>\n                <div class='col-4'></div>\n              </div>\n            </div>\n          </veu-navbar>\n        </div>\n      </div>\n      <div class='container'>\n        <div class='row'>\n          <p>\n            Using without sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button />\n        </div>\n        <div class='row'>\n          <p>\n            Using with sample text\n          </p>\n        </div>\n        <div class='row'>\n          <veu-button :text='sample' />\n        </div>\n        <div class='row'>\n          <div class='col-12 align-center'>\n            <p>\n              Rounded\n            </p>\n            <veu-button :rounded='true' />\n          </div>\n        </div>\n        <div class='row'>\n            <p>\n              Color Variants\n            </p>\n        </div>\n        <div class='row'>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Primary\"' :variant='\"primary\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Secondary\"' :variant='\"secondary\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Info\"' :variant='\"info\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Success\"' :variant='\"success\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Danger\"' :variant='\"danger\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Warning\"' :variant='\"warning\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Hover Animations\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-3'>&nbsp;</div>\n          <div class='col-3 align-center'>\n            <veu-button :text='\"Up\"' :animate='\"up\"' />\n          </div>\n          <div class='col-3 align-center'>\n            <veu-button :text='\"Down\"' :animate='\"down\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Small\"' :size='\"sm\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Regular\"' :size='\"md\"' />\n          </div>\n          <div class='col-4 align-center'>\n            <veu-button :text='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input without placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input with placeholder\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='sample' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input of varying sizes\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-2'>&nbsp;</div>\n          <div class='col-8'>\n            <veu-input :placeholder='\"Small\"' :size='\"sm\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-2'>&nbsp;</div>\n          <div class='col-8'>\n            <veu-input :placeholder='\"Regular\"' :size='\"md\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-2'>&nbsp;</div>\n          <div class='col-8'>\n            <veu-input :placeholder='\"Large\"' :size='\"lg\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fits content\n          </p>\n        </div>\n        <div class='row'>\n          <veu-input :placeholder='\"I fit the contents written\"' :width='\"fit-content\"' />\n        </div>\n        <div class='row'>\n          <p>\n            Text-Input that fills available space\n          </p>\n        </div>\n        <div class='row'>\n          <div class='col-2'>&nbsp;</div>\n          <div class='col-8'>\n            <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n          </div>\n        </div>\n        <div class='row'>\n          <div class='col-2'>&nbsp;</div>\n          <div class='col-4'>\n            <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n          </div>\n          <div class='col-4'>\n            <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n          </div>\n          <div class='col-4'>\n            <veu-input :placeholder='\"I fill the available space\"' :width='\"fill-available\"' />\n          </div>\n        </div>\n      </div>\n    </div>\n  </veu-pane>\n</template>\n\n<script>\n  import VeuButton from '../src/components/VeuButton.vue';\n  import VeuInput from '../src/components/VeuInput.vue';\n  import VeuNavbar from '../src/components/VeuNavbar.vue';\n  import VeuPane from '../src/components/VeuPane.vue';\n  export default {\n    components: {\n      VeuButton, VeuInput, VeuNavbar, VeuPane\n    },\n    data: () => ({ sample: 'Hello, World!' })\n  };\n</script>\n\n<style>\n  body {\n    margin: 0;\n    padding: 0;\n  }\n  .container {\n    border-radius: 5px;\n    padding: 20px;\n  }\n  [class*='col-'] {\n    float: left;\n    box-sizing: border-box;\n  }\n  .col-1 {width: 8.33%};\n  .col-2 {width: 16.66%;}\n  .col-3 {width: 25%;}\n  .col-4 {width: 33.33%;}\n  .col-5 {width: 41.66%;}\n  .col-6 {width: 50%;}\n  .col-7 {width: 58.33%;}\n  .col-8 {width: 66.66%;}\n  .col-9 {width: 75%;}\n  .col-10 {width: 83.33%;}\n  .col-11 {width: 91.66%;}\n  .col-12 {width: 100%;}\n  /* Clear floats after the columns */\n  .row {\n    display: flex;\n    width: 100%\n  }\n  .row:after {\n    content: \"\";\n    display: block;\n    clear: both;\n  }\n  .hidden {\n    display: none;\n  }\n  .align-center {\n    text-align: center;\n  }\n</style>"]}]);
 // Exports
 module.exports = exports;
 
@@ -868,7 +942,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "\nnav[data-v-446c5856] {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem 1rem;\n  top: 0;\n  width: 100%;\n  z-index: 100;\n}\nnav.headroom[data-v-446c5856] {\n  will-change: transform;\n  transition: all .2s ease;\n}\nnav.transparent[data-v-446c5856] {\n  background-color: transparent;\n  border: 0;\n}\nnav.expand-lg[data-v-446c5856] {\n  flex-flow: row nowrap;\n  justify-content: flex-start;\n}\n", "",{"version":3,"sources":["src/components/VeuNavbar.vue"],"names":[],"mappings":";AAoCA;EACA,kBAAA;EACA,aAAA;EACA,eAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;EACA,MAAA;EACA,WAAA;EACA,YAAA;AACA;AAEA;EACA,sBAAA;EACA,wBAAA;AACA;AAEA;EACA,6BAAA;EACA,SAAA;AACA;AAEA;EACA,qBAAA;EACA,2BAAA;AACA","file":"VeuNavbar.vue","sourcesContent":["<!-- Template -->\n<template>\n  <nav\n    :class=\"{\n      'transparent': transparent,\n      'headroom':    headroom,\n      'expand-sm':   expand == 'sm',\n      'expand-md':   expand == 'md',\n      'expand-lg':   expand == 'lg'\n    }\">\n    <slot></slot>\n  </nav>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-navbar',\n    props: {\n      expand: {\n        default: 'none',\n        type: String\n      },\n      headroom: {\n        default: false,\n        type: Boolean\n      },\n      transparent: {\n        default: false,\n        type: Boolean\n      }\n    }\n  };\n</script>\n\n<style scoped>\n  nav {\n    position: relative;\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 1rem;\n    top: 0;\n    width: 100%;\n    z-index: 100;\n  }\n\n  nav.headroom {\n    will-change: transform;\n    transition: all .2s ease;\n  }\n\n  nav.transparent {\n    background-color: transparent;\n    border: 0;\n  }\n\n  nav.expand-lg {\n    flex-flow: row nowrap;\n    justify-content: flex-start;\n  }\n</style>"]}]);
+exports.push([module.i, "\nnav[data-v-446c5856] {\n  position: relative;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem 1rem;\n  top: 0;\n  width: 100%;\n  z-index: 100;\n}\nnav.headroom[data-v-446c5856] {\n  will-change: transform;\n  transition: all .2s ease;\n}\nnav.transparent[data-v-446c5856] {\n  background-color: transparent;\n  border: 0;\n}\nnav.expand-lg[data-v-446c5856] {\n  flex-flow: row nowrap;\n  justify-content: flex-start;\n}\n", "",{"version":3,"sources":["src/components/VeuNavbar.vue"],"names":[],"mappings":";AAoCA;EACA,kBAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;EACA,MAAA;EACA,WAAA;EACA,YAAA;AACA;AAEA;EACA,sBAAA;EACA,wBAAA;AACA;AAEA;EACA,6BAAA;EACA,SAAA;AACA;AAEA;EACA,qBAAA;EACA,2BAAA;AACA","file":"VeuNavbar.vue","sourcesContent":["<!-- Template -->\n<template>\n  <nav\n    :class=\"{\n      'transparent': transparent,\n      'headroom':    headroom,\n      'expand-sm':   expand == 'sm',\n      'expand-md':   expand == 'md',\n      'expand-lg':   expand == 'lg'\n    }\">\n    <slot></slot>\n  </nav>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-navbar',\n    props: {\n      expand: {\n        default: 'none',\n        type: String\n      },\n      headroom: {\n        default: false,\n        type: Boolean\n      },\n      transparent: {\n        default: false,\n        type: Boolean\n      }\n    }\n  };\n</script>\n\n<style scoped>\n  nav {\n    position: relative;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 1rem;\n    top: 0;\n    width: 100%;\n    z-index: 100;\n  }\n\n  nav.headroom {\n    will-change: transform;\n    transition: all .2s ease;\n  }\n\n  nav.transparent {\n    background-color: transparent;\n    border: 0;\n  }\n\n  nav.expand-lg {\n    flex-flow: row nowrap;\n    justify-content: flex-start;\n  }\n</style>"]}]);
 // Exports
 module.exports = exports;
 
@@ -886,7 +960,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "\n*[data-v-c2e271a4] {\n  color: #44476a;\n  background-color: #e6e7ee;\n\n  font-family: 'Nunito Sans', sans-serif;\n  font-size: 1rem;\n  font-weight: 300;\n}\n", "",{"version":3,"sources":["src/components/VeuPane.vue"],"names":[],"mappings":";AAeA;EACA,cAAA;EACA,yBAAA;;EAEA,sCAAA;EACA,eAAA;EACA,gBAAA;AACA","file":"VeuPane.vue","sourcesContent":["<!-- Template -->\n<template>\n  <div>\n    <slot></slot>\n  </div>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-pane'\n  };\n</script>\n\n<style scoped>\n  * {\n    color: #44476a;\n    background-color: #e6e7ee;\n\n    font-family: 'Nunito Sans', sans-serif;\n    font-size: 1rem;\n    font-weight: 300;\n  }\n</style>"]}]);
+exports.push([module.i, "\n*[data-v-c2e271a4] {\n  /* Coloring */\n  color: #44476a;\n  background-color: #e6e7ee;\n  /* Text Sizes */\n  font-family: 'Nunito Sans', sans-serif;\n  font-size: 1rem;\n  font-weight: 300;\n}\n", "",{"version":3,"sources":["src/components/VeuPane.vue"],"names":[],"mappings":";AAeA;EACA,aAAA;EACA,cAAA;EACA,yBAAA;EACA,eAAA;EACA,sCAAA;EACA,eAAA;EACA,gBAAA;AACA","file":"VeuPane.vue","sourcesContent":["<!-- Template -->\n<template>\n  <div>\n    <slot></slot>\n  </div>\n</template>\n\n<!-- JavaScript -->\n<script lang='javascript'>\n  export default {\n    name: 'veu-pane'\n  };\n</script>\n\n<style scoped>\n  * {\n    /* Coloring */\n    color: #44476a;\n    background-color: #e6e7ee;\n    /* Text Sizes */\n    font-family: 'Nunito Sans', sans-serif;\n    font-size: 1rem;\n    font-weight: 300;\n  }\n</style>"]}]);
 // Exports
 module.exports = exports;
 
@@ -1011,6 +1085,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_VeuInput_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/VeuInput.vue */ "./src/components/VeuInput.vue");
 /* harmony import */ var _src_components_VeuNavbar_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/VeuNavbar.vue */ "./src/components/VeuNavbar.vue");
 /* harmony import */ var _src_components_VeuPane_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/VeuPane.vue */ "./src/components/VeuPane.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
