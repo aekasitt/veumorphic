@@ -16,5 +16,9 @@
   * {
     color: #44476a;
     background-color: #e6e7ee;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
   }
 </style>
