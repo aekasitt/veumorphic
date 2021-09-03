@@ -16,10 +16,14 @@
               <div class='row'>
                 <div class='offset-4'></div>
                 <div class='col-4 align-center'>
-                  <veu-button :text='"Buttons"' />
+                  <router-link to='buttons'>
+                    <veu-button :text='"Buttons"' />
+                  </router-link>
                 </div>
                 <div class='col-4 align-center'>
-                  <veu-button :text='"Inputs"' />
+                  <router-link to='inputs'>
+                    <veu-button :text='"Inputs"' />
+                  </router-link>
                 </div>
                 <div class='col-4'>
                   <veu-button :text='"Toggle Theme"' @click.native='toggleTheme' />
@@ -29,219 +33,18 @@
           </veu-navbar>
         </div>
       </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-4'>
-            <p>
-              Using without sample text
-            </p>
-          </div>
-          <div class='col-4'>
-            <p>
-              Using with sample text
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-4'>
-            <veu-button />
-          </div>
-          <div class='col-4'>
-            <veu-button :text='sample' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Rounded
-            </p>
-            <veu-button :rounded='true' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Color Variants
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Primary"' :variant='"primary"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Secondary"' :variant='"secondary"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Info"' :variant='"info"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Success"' :variant='"success"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Danger"' :variant='"danger"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Warning"' :variant='"warning"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Disabled"' :disabled='true' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Hover Animations
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-3'></div>
-          <div class='col-3 align-center'>
-            <veu-button :text='"Up"' :animate='"up"' />
-          </div>
-          <div class='col-3 align-center'>
-            <veu-button :text='"Down"' :animate='"down"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Sizes
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Small"' :size='"sm"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Regular"' :size='"md"' />
-          </div>
-          <div class='col-4 align-center'>
-            <veu-button :text='"Large"' :size='"lg"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Text-Input without placeholder
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <veu-input />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Text-Input with placeholder
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <veu-input :placeholder='sample' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Text-Input of varying sizes
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <veu-input :placeholder='"Small"' :size='"sm"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <veu-input :placeholder='"Regular"' :size='"md"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <veu-input :placeholder='"Large"' :size='"lg"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-8'>
-            <p>
-              Text-Input that fits content
-            </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'></div>
-          <div class='col-6'>
-            <veu-input :placeholder='"I fit the contents written"' :width='"fit-content"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='row'>
-            <div class='offset-2'></div>
-            <div class='col-8'>
-              <p>
-                Text-Input that fills available space
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'>&nbsp;</div>
-          <div class='col-8'>
-            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
-          </div>
-        </div>
-        <div class='row'>
-          <div class='offset-2'>&nbsp;</div>
-          <div class='col-2'>
-            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
-          </div>
-          <div class='offset-2'></div>
-          <div class='col-2'>
-            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
-          </div>
-          <div class='col-2'>
-            <veu-input :placeholder='"I fill the available space"' :width='"fill-available"' />
-          </div>
-        </div>
-      </div>
     </div>
+    <router-view></router-view>
   </veu-pane>
 </template>
 
 <script>
-  import VeuButton from '../src/components/VeuButton.vue';
-  import VeuInput from '../src/components/VeuInput.vue';
   import VeuNavbar from '../src/components/VeuNavbar.vue';
+  import VeuButton from '../src/components/VeuButton.vue';
   import VeuPane from '../src/components/VeuPane.vue';
   export default {
     components: {
-      VeuButton, VeuInput, VeuNavbar, VeuPane
+      VeuButton, VeuNavbar, VeuPane
     },
     methods: {
       toggleTheme() {
