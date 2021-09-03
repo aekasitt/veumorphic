@@ -180,25 +180,9 @@
   }
 
   /**
-   * Chrome version 29 and above
+   * Chrome and Safari
    */
-  @media screen
-    and (-webkit-min-device-pixel-ratio:0)
-    and (min-resolution:.001dpcm)
-  {
-    button {
-      user-select: none; /* re-added to remove warning */
-      -webkit-appearance: button;
-      -webkit-user-select: none;
-    }
-  }
-
-  /**
-   * Chrome version 22 - 28
-   */
-  @media screen
-    and (-webkit-min-device-pixel-ratio:0)
-  {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
     button {
       user-select: none; /* re-added to remove warning */
       -webkit-appearance: button;
@@ -210,10 +194,11 @@
   /**
    * Mozilla Firefox
    */
-  @supports (-moz-appearance: none) 
-  {
+  @-moz-document user-prefix() {
     button {
-      user-select: none;
+      user-select: none; /* re-added to remove warning */
+      -moz-user-select: none;
+      -moz-appearance: button;
     }
   }
 </style>

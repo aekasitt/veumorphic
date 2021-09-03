@@ -68,34 +68,21 @@
     width: fit-content;
   }
   /**
-   * Chrome version 29 and above
+   * Chrome and Safari
    */
-  @media screen
-    and (-webkit-min-device-pixel-ratio:0)
-    and (min-resolution:.001dpcm)
-  {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    input.fit-content {
+      width: -webkit-fit-content;
+    }
     input.fill-available {
       width: -webkit-fill-available;
     }
   }
-
-  /**
-   * Chrome version 22 - 28
-   */
-  @media screen
-    and (-webkit-min-device-pixel-ratio:0)
-  {
-    input.fill-available {
-      width: -webkit-fill-available;
-    }
-  }
-  
 
   /**
    * Mozilla Firefox
    */
-  @supports (-moz-appearance: none) 
-  {
+  @-moz-document url-prefix() {
     input.fit-content {
       width: -moz-fit-content;
     }
