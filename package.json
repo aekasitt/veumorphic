@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "poi example/index.js --out-dir docs",
+    "build:pages": "poi example/index.js --out-dir docs --public-url /veumorphic",
     "serve": "poi --serve --warch --open example/index.js"
   },
   "devDependencies": {
