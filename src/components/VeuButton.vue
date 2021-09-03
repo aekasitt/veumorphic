@@ -6,6 +6,7 @@
 <!-- JavaScript -->
 <script lang='javascript'>
   export default {
+    name: 'veu-button',
     data: () => ({}),
     props: {
       text: {

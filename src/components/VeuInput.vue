@@ -4,6 +4,7 @@
 
 <script lang='javascript'>
   export default {
+    name: 'veu-input',
     props: {
       placeholder: {
         default: '',

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <veu-pane>
     <p>
       Using without sample text
     </p>
@@ -16,16 +16,16 @@
       Input with placeholder
     </p>
     <veu-input :placeholder='sample' />
-  </section>
+  </veu-pane>
 </template>
 
 <script>
   import VeuButton from '../src/components/VeuButton.vue';
   import VeuInput from '../src/components/VeuInput.vue';
+  import VeuPane from '../src/components/VeuPane.vue';
   export default {
     components: {
-      'veu-button': VeuButton,
-      'veu-input': VeuInput
+      VeuButton, VeuInput, VeuPane
     },
     data: () => ({ sample: 'Hello, World!' })
   };
