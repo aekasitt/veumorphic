@@ -1,22 +1,33 @@
 <template>
-  <veu-pane>
-    <p>
-      Using without sample text
-    </p>
-    <veu-button />
-    <p>
-      Using with sample text
-    </p>
-    <veu-button :text='sample' />
-    <p>
-      Input without placeholder
-    </p>
-    <veu-input />
-    <p>
-      Input with placeholder
-    </p>
-    <veu-input :placeholder='sample' />
-  </veu-pane>
+  <div>
+    <section>
+      <p>
+        Basic Components not using Veumorphic
+      </p>
+      <input type='submit'>
+      <input type='submit' :value='sample'>
+      <input type='text'>
+      <input type='text' :placeholder='sample'>
+    </section>
+    <veu-pane>
+      <p>
+        Using without sample text
+      </p>
+      <veu-button />
+      <p>
+        Using with sample text
+      </p>
+      <veu-button :text='sample' />
+      <p>
+        Input without placeholder
+      </p>
+      <veu-input />
+      <p>
+        Input with placeholder
+      </p>
+      <veu-input :placeholder='sample' />
+    </veu-pane>
+  </div>
 </template>
 
 <script>
