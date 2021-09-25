@@ -23,4 +23,4 @@ A simple UI Kit for Vue2 containing neumorphic styled elements
   yarn build:docs # build documentation
 ```
 
-The documentation and demonstration of this repo can be found [here.](https://aekazitt.github.io/veumorphic)
+The documentation and demonstration of this repo can be found [here.](https://aekasitt.github.io/veumorphic)
